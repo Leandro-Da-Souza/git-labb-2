@@ -23,3 +23,16 @@ $ git status
 
 ### Snapshots the file in preparation for versioning
 $ git add [file]
+
+### Unstages the file, but preserve its contents
+$ git reset [file]
+
+### Shows file differences not yet staged
+$ git diff
+
+### Shows file differences between staging and the last file version
+$ git diff --staged
+
+### Records file snapshots permanently in verison history
+
+$ git commit -m "[descriptive message]"
